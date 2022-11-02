@@ -4,7 +4,7 @@ import { writeFileSync } from 'fs'
 interface Options {
   version?: string | (() => string)
 }
-export default ({ version = Date.now().toString() }: Options) => {
+export default ({ version = Date.now().toString() }: Options = {}) => {
   const _version = typeof version === 'function' ? version() : version
   return {
     name: 'html-version',
