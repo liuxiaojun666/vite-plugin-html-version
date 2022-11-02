@@ -23,7 +23,8 @@
   "license": "MIT",
   "homepage": "https://github.com/liuxiaojun666/vite-plugin-html-version",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "vite": "^3.1.8"
