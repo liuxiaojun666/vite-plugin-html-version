@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-html-version",
+  "version": "0.0.1",
+  "author": "liuxiaojun",
+  "description": "",
+  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuxiaojun666/vite-plugin-html-version.git"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "html",
+    "version"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/liuxiaojun666/vite-plugin-html-version",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "vite": "^3.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "typescript": "^4.8.4"
+  }
+}
