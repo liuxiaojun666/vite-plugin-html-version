@@ -18,9 +18,7 @@
   "files": [
     "dist",
     "src",
-    "index.js",
-    "package.json",
-    "README.md"
+    "index.js"
   ],
   "license": "MIT",
   "homepage": "https://github.com/liuxiaojun666/vite-plugin-html-version",
