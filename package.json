@@ -2,7 +2,7 @@
   "name": "vite-plugin-html-version",
   "version": "0.0.1",
   "author": "liuxiaojun",
-  "description": "",
+  "description": "解决浏览器缓存问题。给html文件添加版本号，并生成version.txt文件。",
   "main": "index.js",
   "types": "./dist/index.d.ts",
   "repository": {
@@ -26,5 +26,9 @@
   "devDependencies": {
     "@types/node": "^18.11.4",
     "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=16.18.0",
+    "pnpm": ">=6.0.0"
   }
 }

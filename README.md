@@ -19,11 +19,27 @@ export default defineConfig({
   plugins: [
     htmlVersion({
       version: '1.0.0',
-      template: 'index.html',
-      output: 'index.html',
     }),
   ],
 })
+```
+
+## Result
+  
+```html
+<!DOCTYPE html>
+<html data-version="1667206656289" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" src="/src/index.a3s5rdf2f3.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
 ```
 
 ## Options
@@ -31,6 +47,3 @@ export default defineConfig({
 | Name     | Type     | Default | Description                                                                 |
 | -------- | -------- | ------- | --------------------------------------------------------------------------- |
 | version  | `string` |         | version                                                                     |
-| template | `string` |         | template file path                                                          |
-| output   | `string` |         | output file path                                                            |
-| inject   | `object` |         | [html-webpack-plugin](
