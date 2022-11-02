@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = require("fs");
-exports.default = (version = Date.now().toString()) => {
+exports.default = ({ version = Date.now().toString() }) => {
     const _version = typeof version === 'function' ? version() : version;
     return {
         name: 'html-version',
