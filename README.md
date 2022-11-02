@@ -44,6 +44,6 @@ export default defineConfig({
 
 ## Options
 
-| Name     | Type     | Default | Description                                                                 |
-| -------- | -------- | ------- | --------------------------------------------------------------------------- |
-| version  | `string` |         | version                                                                     |
+| Name     | Type     | Default             | Description                    |
+| -------- | -------- | ------------------- | ------------------------------ |
+| version  | `string` |Date.now().toString()| version                        |
