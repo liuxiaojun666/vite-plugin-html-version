@@ -26,6 +26,24 @@ export default defineConfig({
 })
 ```
 
+## Usage vite2
+
+vite2 ts 校验可能会冲突，不影响正常使用。
+
+``` ts
+// vite.config.js
+import { defineConfig } from 'vite'
+import htmlVersion from 'vite-plugin-html-version'
+
+export default defineConfig({
+  plugins: [
+    htmlVersion({
+      version: '1.0.0',
+    }) as unknown as PluginOption,
+  ],
+})
+```
+
 ## Result
   
 ```html
