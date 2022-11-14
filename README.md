@@ -97,7 +97,7 @@ async function diffVersion() {
 
 // 获取最新版本号
 function getVersion() {
-  return fetch(`/version.txt?_t=${Date.now}`).then((res) => {
+  return fetch(`/version.txt?_t=${Date.now()}`).then((res) => {
     if (res.ok) {
       return res.body
         ?.getReader()
